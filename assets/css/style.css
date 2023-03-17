@@ -76,8 +76,18 @@ header div ul li {
     height: 28px;
 }
 
-.sectionName{
-
+.sectionBox{
+    height: auto;
+    width: 300px;
+    float: left;
+    border-right: var(--dark);
+    color: var(--dark);
+    border-width: 10px;
+    border-style: none solid none none;
+    padding: 10px;
+}
+.sectionBox h1{
+    text-align: right;
 }
 
 
