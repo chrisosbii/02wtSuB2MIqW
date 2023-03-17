@@ -24,6 +24,7 @@ body {
 
 p {
     font-size: 16px;
+    color: var(--dark);
 }
 h1{
     color: var(--dark);
@@ -75,11 +76,13 @@ header div ul li {
 .parrot{
     height: 28px;
 }
+/* Flex box sections definitions */
 .sectionFlex{
     display: flex;
     align-items: flex-start;
     width: 95%;
 }
+/* Created box for title of section */
 .sectionBox{
     display: inline-block;
     position: relative;
@@ -92,19 +95,38 @@ header div ul li {
 .sectionBox h1{
     text-align: right;
 }
+/* Define content boxes to ensure there is a boarder on the left of the box */
 .contentBox{
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
 
     height: auto;
     width: 70%;
     padding-left: 5%;
-    border-left: var(--dark);
+    border-color: var(--dark);
     border-width: 10px;
     border-style: none none none solid;
 }
+/* add extra padding to p objexts here */
 .contentBox p {
     padding: 10px;
+}
+
+/* Define boxes for work objects */
+/* add boarder and colors */
+.workBox {
+    position: relative;
+    border-color: var(--light);
+    border-width: 5px;
+    border-style: solid;
+}
+
+.workBoxTitle {
+    background-color: var(--light);
+    align-self: left;
+    position: relative;
+    margin-bottom: 10px;
 }
 
 
