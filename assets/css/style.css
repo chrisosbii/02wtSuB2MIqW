@@ -211,3 +211,30 @@ footer {
     border-style: solid;
     z-index: 9;
 }
+
+/**
+ * @media dimension changes go here
+ */
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 24px;
+    }
+    header div {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    header div ul li {
+        margin-left: 8px;
+        
+    }
+    .smallWorkBox {
+        position: relative;
+        border-color: var(--light);
+        border-width: 5px;
+        border-style: solid;
+        margin:1%;
+        height: 200px;
+        width: 100%;
+    }
+}
