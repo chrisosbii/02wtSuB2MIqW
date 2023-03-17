@@ -25,18 +25,29 @@ body {
 p {
     font-size: 16px;
 }
+h1{
+    color: var(--dark);
+    font-size: 48px;
+}
 
 /* Sets up the header object */
 header {
-    padding: 20px;
+    position: flex;
+    padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--dark);
     color: var(--light);
+    height: 70px;
 }
 /* formate the h1 objects in headers to keep them in line and increase font size */
 header h1 {
+    position: fixed;
+    bottom: 10;
+    left: 0;
+    padding-left: 5%;
+    padding-right: 10px;
+    background-color: var(--light);
     display: inline-block;
-    font-size: 48px;
 }
 /* adjust the header's div objects padding, location, float, font style, and font size */
 header div {
