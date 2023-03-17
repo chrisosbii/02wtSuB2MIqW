@@ -30,6 +30,9 @@ h1{
     color: var(--dark);
     font-size: 48px;
 }
+h3{
+    font-size: medium;
+}
 
 /* Sets up the header object */
 header {
@@ -127,6 +130,7 @@ header div ul li {
     align-self: left;
     position: relative;
     margin-bottom: 10px;
+    color: var(--dark);
 }
 
 
@@ -141,4 +145,9 @@ header div ul li {
     background-image: url("../images/blue_gray_background.jpg");
     background-size: cover;
     background-position-y: -55px;
+}
+
+/* ids for work items */
+#timer {
+    background-image: url("../images/timer.jpg");
 }
