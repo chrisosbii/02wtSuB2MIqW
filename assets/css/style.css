@@ -90,7 +90,8 @@ footer {
     display: flex;
     align-items: flex-start;
     width: 95%;
-    margin: 10px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
 }
 /* Created box for title of section */
 .sectionBox{
@@ -121,6 +122,7 @@ footer {
 /* add extra padding to p objexts here */
 .contentBox p {
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 /* remove ul list types */
 .contentBox ul {
@@ -195,8 +197,9 @@ footer {
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/blue_gray_background.jpg");
-    background-size: cover;
-    background-position-y: -55px;
+    background-size: 100% 500px;
+    background-position-y: 0;
+    background-repeat: no-repeat;
 }
 
 /* defines the profile picture box */
