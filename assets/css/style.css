@@ -146,7 +146,35 @@ footer {
     border-style: solid;
     margin:1%;
 }
+/* make the images opaque */
+.workBox img{
+    opacity: 0.5
+}
+/* when hovered make images visible */
+.workBox img:hover{
+    opacity: 1.0;
+}
 
+/* for small boxes use this class */
+.smallWorkBox {
+    position: relative;
+    border-color: var(--light);
+    border-width: 5px;
+    border-style: solid;
+    margin:1%;
+    height: 200px;
+    width: 48%;
+}
+/* make the images opaque */
+.smallWorkBox img{
+    opacity: 0.5
+}
+/* when hovered make images visible */
+.smallWorkBox img:hover{
+    opacity: 1.0;
+}
+
+/* titles for work box use this class. Need z-index to remove it from opacity in the image */
 .workBoxTitle {
     background-color: var(--light);
     left: 0;
@@ -154,6 +182,8 @@ footer {
     position: absolute;
     color: var(--dark);
     padding: 10px;
+    opacity: 1.0;
+    z-index: 9;
 }
 
 /**
@@ -167,27 +197,4 @@ footer {
     background-image: url("../images/blue_gray_background.jpg");
     background-size: cover;
     background-position-y: -55px;
-}
-
-/* ids for work items */
-#timer {
-    height: 400px;
-    width: 98%;
-    object-fit: cover;
-    background-image: url("../images/timer.jpg");
-    background-size: 100% 100%;
-}
-#idGenerator {
-    height: 200px;
-    width: 48%;
-    object-fit: cover;
-    background-image: url("../images/green_bars.jpg");
-    background-size: 100% 100%;
-}
-#filler {
-    height: 200px;
-    width: 48%;
-    object-fit: cover;
-    background-image: url("../images/filler.jpg");
-    background-size: 100% 100%;
 }
