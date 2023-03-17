@@ -84,6 +84,7 @@ header div ul li {
     display: flex;
     align-items: flex-start;
     width: 95%;
+    margin: 10px;
 }
 /* Created box for title of section */
 .sectionBox{
@@ -127,9 +128,9 @@ header div ul li {
 
 .workBoxTitle {
     background-color: var(--light);
-    align-self: left;
-    position: relative;
-    margin-bottom: 10px;
+    left: 0;
+    bottom: 10px;
+    position: absolute;
     color: var(--dark);
 }
 
@@ -149,5 +150,10 @@ header div ul li {
 
 /* ids for work items */
 #timer {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
     background-image: url("../images/timer.jpg");
+    background-size: 100% 100%;
+    
 }
