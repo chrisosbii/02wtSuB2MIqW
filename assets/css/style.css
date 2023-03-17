@@ -13,9 +13,49 @@
 /**
  * CSS Universal Elements Area
  */
+
+a {
+    color: var(--light);
+}
+
+body {
+    background-color: var(--background);
+}
+
 p {
     font-size: 16px;
 }
+
+/* Sets up the header object */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--dark);
+    color: var(--light);
+}
+/* formate the h1 objects in headers to keep them in line and increase font size */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* adjust the header's div objects padding, location, float, font style, and font size */
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* remove ul list types */
+header div ul {
+    list-style-type: none;
+}
+/* make the list inline and push away from the end of the edge */
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
 
 /**
  * CSS Class Elements Area
@@ -24,3 +64,7 @@ p {
 .parrot{
     height: 28px;
 }
+
+/**
+ * CSS ID Elements Area
+ */
