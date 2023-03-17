@@ -36,7 +36,7 @@ h3{
 
 /* Sets up the header object */
 header {
-    position: flex;
+    position: relative;
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--dark);
@@ -45,7 +45,7 @@ header {
 }
 /* formate the h1 objects in headers to keep them in line and increase font size */
 header h1 {
-    position: fixed;
+    position: absolute;
     bottom: 10;
     left: 0;
     padding-left: 5%;
@@ -124,6 +124,7 @@ header div ul li {
     border-color: var(--light);
     border-width: 5px;
     border-style: solid;
+    margin:1%;
 }
 
 .workBoxTitle {
@@ -132,6 +133,7 @@ header div ul li {
     bottom: 10px;
     position: absolute;
     color: var(--dark);
+    padding: 10px;
 }
 
 
@@ -151,9 +153,22 @@ header div ul li {
 /* ids for work items */
 #timer {
     height: 300px;
-    width: 100%;
+    width: 98%;
     object-fit: cover;
     background-image: url("../images/timer.jpg");
     background-size: 100% 100%;
-    
+}
+#idGenerator {
+    height: 150px;
+    width: 48%;
+    object-fit: cover;
+    background-image: url("../images/green_bars.jpg");
+    background-size: 100% 100%;
+}
+#filler {
+    height: 150px;
+    width: 48%;
+    object-fit: cover;
+    background-image: url("../images/filler.jpg");
+    background-size: 100% 100%;
 }
