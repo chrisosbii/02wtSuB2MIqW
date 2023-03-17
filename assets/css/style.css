@@ -76,6 +76,20 @@ header div ul li {
     height: 28px;
 }
 
+.sectionName{
+
+}
+
+
 /**
  * CSS ID Elements Area
  */
+
+#barImage {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/blue_gray_background.jpg");
+    background-size: cover;
+    background-position-y: -25px;
+}
