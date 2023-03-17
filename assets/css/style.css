@@ -70,7 +70,13 @@ header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* difines padding, clear, font, and text slignment for universal footer objects*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
 
 /**
  * CSS Class Elements Area
@@ -114,7 +120,21 @@ header div ul li {
 }
 /* add extra padding to p objexts here */
 .contentBox p {
-    padding: 10px;
+    padding-top: 5px;
+}
+/* remove ul list types */
+.contentBox ul {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+}
+/* make the list inline and push away from the end of the edge */
+.contentBox ul li {
+    display: inline-flex;
+    padding: 5%;
+}
+.contentBox ul li a {
+    color: var(--dark);
 }
 
 /* Define boxes for work objects */
@@ -136,7 +156,6 @@ header div ul li {
     padding: 10px;
 }
 
-
 /**
  * CSS ID Elements Area
  */
@@ -152,21 +171,21 @@ header div ul li {
 
 /* ids for work items */
 #timer {
-    height: 300px;
+    height: 400px;
     width: 98%;
     object-fit: cover;
     background-image: url("../images/timer.jpg");
     background-size: 100% 100%;
 }
 #idGenerator {
-    height: 150px;
+    height: 200px;
     width: 48%;
     object-fit: cover;
     background-image: url("../images/green_bars.jpg");
     background-size: 100% 100%;
 }
 #filler {
-    height: 150px;
+    height: 200px;
     width: 48%;
     object-fit: cover;
     background-image: url("../images/filler.jpg");
