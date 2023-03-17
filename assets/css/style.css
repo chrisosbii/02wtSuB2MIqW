@@ -1,3 +1,6 @@
 /**
  * CSS Universal Element Updates
  */
+p {
+    font-size: 16px;
+}
