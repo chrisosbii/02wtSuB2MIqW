@@ -1,6 +1,24 @@
+/** 
+ * Custom CSS Variables
+ */
+:root {
+    /*  */
+    --dark: #13293d;
+    --light: #fff;
+    --navlink-color: #b9c6ae;
+  }
+
 /**
- * CSS Universal Element Updates
+ * CSS Universal Elements Area
  */
 p {
     font-size: 16px;
 }
+
+/**
+ * CSS Class Elements Area
+ */
+
+ .parrot{
+    height: 28px;
+ }
