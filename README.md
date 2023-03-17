@@ -6,7 +6,7 @@ I wanted the profile to include a brief description, links to projects I am work
 
 This project can be viewed by going to [link](https://chrisosbii.github.io/02wtSuB2MIqW/)
 
-![Horiseon Landing Page Sreenshoot](./assets/images/chrisosbii.github.io_02wtSuB2MIqW.png)
+![Chris_Osborne's_Profile](./assets/images/chrisosbii.github.io_02wtSuB2MIqW.png)
 
 ## References
 * wfhparrot from https://cultofthepartyparrot.com/
