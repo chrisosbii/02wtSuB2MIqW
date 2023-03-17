@@ -77,17 +77,27 @@ header div ul li {
 }
 
 .sectionBox{
+    display: inline-block;
+    position: relative;
     height: auto;
     width: 300px;
-    float: left;
     border-right: var(--dark);
     color: var(--dark);
     border-width: 10px;
     border-style: none solid none none;
     padding: 10px;
+    margin: 5px;
 }
 .sectionBox h1{
     text-align: right;
+}
+.contentBox{
+    display: inline-block;
+    position: relative;
+
+    height: auto;
+    width: 100%;
+    padding: 20px;
 }
 
 
