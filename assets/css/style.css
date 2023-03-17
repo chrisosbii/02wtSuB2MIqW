@@ -4,8 +4,8 @@
 :root {
     /* Dark color variable */
     --dark: #13293d;
-    /* light color variable */
-    --light: #83EEFF;
+    /* light color variable (was #83EEFF) */
+    --light: #129cd8;
     /* background color */
     --background: #B2beb5;
 }
@@ -197,4 +197,17 @@ footer {
     background-image: url("../images/blue_gray_background.jpg");
     background-size: cover;
     background-position-y: -55px;
+}
+
+/* defines the profile picture box */
+#profilePic {
+    position: absolute;
+    right: 5%;
+    top: 100px;
+    height: 250px;
+    width: auto;
+    border-color: var(--light);
+    border-width: 10px;
+    border-style: solid;
+    z-index: 9;
 }
