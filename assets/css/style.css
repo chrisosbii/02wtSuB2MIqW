@@ -75,18 +75,19 @@ header div ul li {
 .parrot{
     height: 28px;
 }
-
+.sectionFlex{
+    display: flex;
+    align-items: flex-start;
+    width: 95%;
+}
 .sectionBox{
     display: inline-block;
     position: relative;
     height: auto;
-    width: 300px;
-    border-right: var(--dark);
-    color: var(--dark);
-    border-width: 10px;
-    border-style: none solid none none;
+    width: 25%;
     padding: 10px;
     margin: 5px;
+    align-content: right;
 }
 .sectionBox h1{
     text-align: right;
@@ -96,8 +97,14 @@ header div ul li {
     position: relative;
 
     height: auto;
-    width: 100%;
-    padding: 20px;
+    width: 70%;
+    padding-left: 5%;
+    border-left: var(--dark);
+    border-width: 10px;
+    border-style: none none none solid;
+}
+.contentBox p {
+    padding: 10px;
 }
 
 
